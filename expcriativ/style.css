@@ -1,0 +1,118 @@
+
+
+.title {
+  margin-top: 20px; /* Adicionando um espaço entre o título e o resto do cabeçalho */
+}
+.card-container {
+  padding: 120px; /* Adicionando padding aos cards */
+  width: 100%;
+}
+.container {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width:1600px;
+}
+
+.row{
+  width:100%;
+}
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+#img45{
+  height: 140px;
+}
+
+
+#img12{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-button:hover {
+  transform: translateY(-2px);
+}
+
+
+/* Adicionando Media Queries */
+@media screen and (max-width:  576px) {
+  .card {
+    width: 70%; /* Reduzindo a largura dos cards para telas menores */
+    max-width: 250px; /* Define uma largura máxima para os cards */
+  }
+}
+
+
+
+
+  .logo {
+    width: auto; /* Definindo a largura máxima do logo */
+    height: auto; /* Garantindo a altura automática para manter a proporção */
+    display: inline-block;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  }
+
+  .header {
+    text-align: center; /* Centralizando o conteúdo do cabeçalho */
+    margin-bottom: 20px; /* Adicionando um espaço entre o cabeçalho e o conteúdo */
+    background-color: blue;
+  color: white;
+  padding: 20px;
+  }
+
+  .title {
+    margin-top: 20px; /* Adicionando um espaço entre o título e o resto do cabeçalho */
+    margin: 0;
+  }
+
+  .card {
+    background-color: rgb(249, 246, 246);
+  height:auto;
+  width:100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9);
+  transition: transform 0.6s;
+  border: solid 1px #000;
+  flex: 0 1 calc(25% - 10px); /* 25% de largura máxima para cada card, com 10px de margem entre eles */
+  }
+  .card:hover {
+  transform: translateY(-15px);
+}
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-body {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card-button {
+    display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(83, 83, 199);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  }
