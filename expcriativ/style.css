@@ -1,0 +1,101 @@
+.header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  background-color: rgb(249, 246, 246);
+  width: 22%;
+  height:24rem;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.9);
+  transition: transform 0.3s;
+  border: solid 1px #000;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.logo {
+  display: inline-block;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90px;
+  height: 90px;
+}
+
+.logo1 {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  height: 170px;
+}
+#img12{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.logo1 img {
+  width: auto;
+  background-color: rgb(10, 10, 10);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.card-button:hover {
+  transform: translateY(-2px);
+}
+
+
+/* Adicionando Media Queries */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 45%; /* Reduzindo a largura dos cards para telas menores */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%; /* Cards ocupando toda a largura em telas muito pequenas */
+  }}
