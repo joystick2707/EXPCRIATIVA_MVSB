@@ -4,6 +4,9 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ a{
+  color: #000;
+ }
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -52,12 +55,12 @@
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #0c0c0c;
     text-align: left;
-    background-color: #fff; }
+    background-color: #131111; }
   
   [tabindex="-1"]:focus {
     outline: 0 !important; }
@@ -74,7 +77,9 @@
   
   p {
     margin-top: 0;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem; 
+    color:#040505;
+  }
   
   abbr[title],
   abbr[data-original-title] {
@@ -133,7 +138,7 @@
     top: -.5em; }
   
   a {
-    color: #007bff;
+    color: #0f0f0f;
     text-decoration: none;
     background-color: transparent; }
     a:hover {
@@ -2693,7 +2698,7 @@
     white-space: nowrap;
     background-color: transparent;
     border: 0; }
-    .dropdown-item:hover, .dropdown-item:focus {
+    input:hover,.dropdown-item:hover, .dropdown-item:focus {
       color: #16181b;
       text-decoration: none;
       background-color: #f8f9fa; }
@@ -3486,8 +3491,9 @@
     display: inline-block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
-  
+    
   .navbar-collapse {
+    width: max-content;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     -webkit-box-flex: 1;
@@ -7994,7 +8000,7 @@
     color: #007bff !important; }
   
   a.text-primary:hover, a.text-primary:focus {
-    color: #0056b3 !important; }
+    color: #040505 !important; }
   
   .text-secondary {
     color: #6c757d !important; }
@@ -8027,7 +8033,7 @@
     color: #a71d2a !important; }
   
   .text-light {
-    color: #f8f9fa !important; }
+    color: #ffff !important; }
   
   a.text-light:hover, a.text-light:focus {
     color: #cbd3da !important; }
@@ -8346,4 +8352,10 @@
           border: 1px solid transparent;
           background: #fbceb5;
           color: #fff; }
+input:hover{
+  color: wheat;
+}
+#password:hover{
+  background-color: wheat;
+}
   

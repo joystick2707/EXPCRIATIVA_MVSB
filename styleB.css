@@ -10,7 +10,10 @@
   margin-top: 20px;
   margin: 0;
 }
-
+p{
+  font: 1em sans-serif;
+  color:#000;
+}
 /* Estilos para os cards */
 .card {
   background-color: rgb(249, 246, 246);
