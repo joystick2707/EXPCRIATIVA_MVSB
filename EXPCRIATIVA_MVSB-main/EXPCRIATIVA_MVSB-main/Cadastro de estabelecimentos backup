@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Teste</title>
+    
+</head>
+<body class="body">
+
+    <a href="teste.html">Cancelar</a>
+
+    <div class="title">
+        <h1>Cadastre seu estabelecimento</h1>
+    </div>
+
+    <div class="container">
+        <input class="user_input" type="text" placeholder="Digite o nome do Estabelecimento" required> <br>
+        <input class="user_input" type="text" placeholder="Digite o Endereco" required> <br>
+        <input class="user_input" type="text" placeholder="Digite o numero de telefone" required><br>
+        <input class="user_input" type="text" placeholder="Digite uma Descricao" required><br>
+        <button class="cadastro_button"><a href="#"></a>Cadastrar</button>
+    </div>
+
+    
+
+</body>
+</html>
